@@ -1,0 +1,33 @@
+#table_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+table, th, td {
+    border: 1px solid #eeeeee;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    background: #1077ba;
+    color: white;
+}
+
+th, td {
+    padding: 5px;
+}
+
+.col_chkbox {
+    text-align: center;
+}
+
+.col_number {
+    text-align: center;
+}
+
