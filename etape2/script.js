@@ -24,32 +24,32 @@ function doInsertRowTable(num, nom, prenom, points) {
     table.appendChild(row);
 }
 
-function creer_num() {
+function creer_num(num) {
     const num_cell = document.createElement("td"); // creer l'element (cellule td)
     num_cell.classList.add("col_number"); // ajouter la class
-    num_cell.textContent = "99"; // ajouter les donnees
+    num_cell.textContent = num; // ajouter les donnees
 
     return num_cell;
 }
 
-function creer_nom() {
+function creer_nom(nom) {
     const nom_cell = document.createElement("td");
     nom_cell.classList.add("col_text");
-    nom_cell.textContent = "nom";
+    nom_cell.textContent = nom;
     return nom_cell;
 }
 
-function creer_prenom() {
+function creer_prenom(prenom) {
     const prenom_cell = document.createElement("td");
     prenom_cell.classList.add("col_text");
-    prenom_cell.textContent = "prenom";
+    prenom_cell.textContent = prenom;
     return prenom_cell;
 }
 
-function creer_points() {
+function creer_points(points) {
     const points_cell = document.createElement("td");
     points_cell.classList.add("col_number");
-    points_cell.textContent = "10";
+    points_cell.textContent = points;
 
     return points_cell;
 }
